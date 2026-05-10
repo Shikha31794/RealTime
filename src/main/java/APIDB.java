@@ -29,6 +29,8 @@ public class APIDB {
         rs1.next();
 
         System.out.println(rs1.getString("email"));
+        System.out.println(rs1.getString("id"));
+
         int dbId = rs1.getInt("id");
         String dbName = rs1.getString("name");
         String dbEmail = rs1.getString("email");
